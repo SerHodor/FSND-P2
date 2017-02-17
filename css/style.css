@@ -1,0 +1,35 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #2d3c49;
+}
+h1 {
+  font-weight: 300;
+  font-size: 3.5em;
+}
+h2 {
+  color: #7d97ad;
+  padding-left: 0.2em;
+  margin-bottom: 15px;
+}
+p {
+  word-wrap: break-word;
+  vertical-align: middle;
+}
+
+hr {
+  border: none;
+  height: 4px;
+  color: #7d97ad;
+  background-color: #7d97ad;
+}
+footer {
+  background-color: #02b3e4;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.logo {
+  height: 5em;
+  margin-top: 1.5em;
+}

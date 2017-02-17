@@ -1,0 +1,110 @@
+<!--
+  I do not have decent quality images of my own projects therefore I am using placeholer images.
+
+  References:
+  Udacity logo form udacity website,
+  placekitten.com
+  and Bootstrap.
+-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kitten Portfolio</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="container">
+    
+    <header class="row">
+      <div class="col-md-2 col-xs-3 col-sm-2">
+        <img class="img-responsive logo" src="https://d125fmws0bore1.cloudfront.net/assets/logo/logo-mark-e55958b7fd6d392c1e343b02a9e045cb669c33cfa1bb772bba40897a0f2b482d.svg" alt="Udacity logo">
+      </div>
+      <div class="col-md-10 col-xs-9 col-sm-10 text-uppercase text-right">
+        <h1>Jane Doette</h1>
+        <h4>Front-end Ninja</h4>
+      </div>
+    </header>
+    
+    <div class="row">
+      <div class="col-xs-12">
+        <hr>
+      </div>
+    </div>
+    
+    <section class="row">
+      <div class="col-xs-12">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="http://placekitten.com/1170/500">
+          <source media="(min-width: 992px)" srcset="http://placekitten.com/970/410">
+          <source media="(min-width: 768px)" srcset="http://placekitten.com/750/320">
+          <source media="(max-width: 768px)" srcset="http://placekitten.com/750/400">
+          <img class="img-responsive" src="http://placekitten.com/750/320" alt="Display image">
+        </picture>
+      </div>
+    </section>
+    
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="text-left">Featured Work</h2>
+      </div>
+    </div>
+    
+    <section class="row">
+      <article class="col-md-4 col-sm-6 col-xs-6">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="http://placekitten.com/380/250">
+          <source media="(min-width: 992px)" srcset="http://placekitten.com/314/207">
+          <source media="(min-width: 768px)" srcset="http://placekitten.com/368/243">
+          <img class="img-responsive" src="http://placekitten.com/368/243" alt="Appify">
+        </picture>    
+        <h3 class="text-center text-uppercase">Appify</h3>
+        <p class="text-center">https://github.com/udacity/Appify/</p>
+      </article>
+      
+      <article class="col-md-4 col-sm-6 col-xs-6">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="http://placekitten.com/380/250">
+          <source media="(min-width: 992px)" srcset="http://placekitten.com/314/207">
+          <source media="(min-width: 768px)" srcset="http://placekitten.com/368/243">
+          <img class="img-responsive" src="http://placekitten.com/368/243" alt="Sunflower">
+        </picture>    
+        <h3 class="text-center text-uppercase">Sunflower</h3>
+        <p class="text-center">https://github.com/udacity/Sunflower/</p>
+      </article>
+      
+      <article class="col-md-4 col-sm-6 col-xs-6">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="http://placekitten.com/380/250">
+          <source media="(min-width: 992px)" srcset="http://placekitten.com/314/207">
+          <source media="(min-width: 768px)" srcset="http://placekitten.com/368/243">
+          <img class="img-responsive" src="http://placekitten.com/368/243" alt="Bokeh">
+        </picture>    
+        <h3 class="text-center text-uppercase">Bokeh</h3>
+        <p class="text-center">https://github.com/udacity/Bokeh/</p>
+      </article>
+    </section>
+    
+  </div>
+  
+  <footer>
+    <div class="container">
+      <p class="text-info text-center">Udacity Course Project</p>
+    </div>
+  </footer>
+  
+</body>
+
+</html>
